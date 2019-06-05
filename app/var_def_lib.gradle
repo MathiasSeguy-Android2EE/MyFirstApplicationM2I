@@ -1,0 +1,4 @@
+//This is the list of the version of library you use
+project.ext {
+comGithubSatyan_sugar_Version=D\:\\Android\\Git\\TPFormation\\MyFirstApplicationM2I\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png
+}

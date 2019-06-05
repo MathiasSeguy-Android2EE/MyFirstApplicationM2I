@@ -32,7 +32,7 @@
 package com.android2ee.formation.m2i.octmmxvi.myfirstapplicationm.view.generic;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
 import com.android2ee.formation.m2i.octmmxvi.myfirstapplicationm.R;
