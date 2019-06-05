@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFirstApplicationM2I</string>
+    <string name="mainActivity_txvTitle">Titre</string>
+    <string name="mainActivity_edtMessage_hint">Tapes ton texte ici mon chou</string>
+    <string name="mainActivity_btnAdd">Ajoutes</string>
+    <string name="mainMenu_delete_title">Kill them all ahaha!</string>
+    <string name="alertdialog_ad">Un message %1$s recpoier tout ca ?</string>
+    <string name="alertdialog_ad_ok">Oui</string>
+    <string name="alertdialog_ad_nok">Non</string>
+    <string name="toast_doNotCopy">ARRRRGGGGGGG ! i wanted to copy paste, ***</string>
+</resources>

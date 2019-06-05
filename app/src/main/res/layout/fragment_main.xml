@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+android:gravity="left"
+tools:context="com.android2ee.formation.m2i.octmmxvi.myfirstapplicationm.view.main.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="32sp"
+    android:shadowColor="@color/colorPrimary"
+    android:shadowDx="5"
+    android:shadowDy="5"
+    android:shadowRadius="5"
+    android:layout_gravity="center"
+    android:text="@string/mainActivity_txvTitle"
+    android:layout_margin="5dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtMessage"
+    android:hint="@string/mainActivity_edtMessage_hint"
+    android:inputType="text|textCapSentences|textAutoCorrect"
+    android:layout_margin="5dp"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnAdd"
+    android:text="@string/mainActivity_btnAdd"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"/>
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rcvResult"
+    android:layout_margin="5dp"/>
+</LinearLayout>

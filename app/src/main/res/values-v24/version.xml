@@ -1,0 +1,5 @@
+<resources>
+    <bool name="postICS">true</bool>
+    <bool name="postLollipop">true</bool>
+    <bool name="postNougat">true</bool>
+</resources>
